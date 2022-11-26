@@ -1,6 +1,6 @@
 const PDFDocument = require('pdfkit')
 
-function Default(data, end) {
+function Pdfkit(data, end) {
     const doc = new PDFDocument();
 
     doc.on('data', data)
@@ -8,9 +8,9 @@ function Default(data, end) {
   
     doc
       .fontSize(25)
-      .text('Default...', 100, 100);
+      .text('PdfKit...', 100, 100);
   
     doc.end();
 }
 
-module.exports = Default;
+module.exports = Pdfkit;
