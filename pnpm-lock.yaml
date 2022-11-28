@@ -6,12 +6,14 @@ specifiers:
   express: ^4.18.2
   nodemon: ^2.0.20
   pdfkit: ^0.13.0
+  pdfkit-table: ^0.1.99
 
 dependencies:
   chart.js: 3.9.1
   chartjs-node-canvas: 4.1.6_chart.js@3.9.1
   express: 4.18.2
   pdfkit: 0.13.0
+  pdfkit-table: 0.1.99
 
 devDependencies:
   nodemon: 2.0.20
@@ -984,6 +986,12 @@ packages:
 
   /path-to-regexp/0.1.7:
     resolution: {integrity: sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==}
+    dev: false
+
+  /pdfkit-table/0.1.99:
+    resolution: {integrity: sha512-BaunFJ7cvKqIPONzX9FXUpeC/3iJeLo0v2nVNjCccAxdMXKvDMBjxyF4wZhKOYlmP+nYZcikf9ByVJeCzjNK6g==}
+    dependencies:
+      pdfkit: 0.13.0
     dev: false
 
   /pdfkit/0.13.0:
